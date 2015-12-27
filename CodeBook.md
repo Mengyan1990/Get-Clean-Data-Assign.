@@ -1,9 +1,9 @@
 #Original data set
-=============================
+============================
 The original data for this project are from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 #Works to clean up the data 
-=============================
+============================
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -13,7 +13,7 @@ The original data for this project are from: https://d396qusza40orc.cloudfront.n
 
 
 #Variables in the tidy dataset
-=============================
+============================
 ##subject
 * Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
