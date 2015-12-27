@@ -12,7 +12,7 @@ test <- cbind(Subject_test,y_test,X_test)
 smartphone1 <-rbind(train,test)
 #read features
 features <- read.table("./UCI HAR Dataset/features.txt")
-#2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+#2.Extracts only the measurements on the mean and standard deviation for each measurement
 column <-grep("mean|std",features[,2])
 extractcolumn <- c(1,2,column+2)
 smartphone2 <- smartphone1 [ ,extractcolumn]
