@@ -1,5 +1,5 @@
 # Purpose of the script
-==========================
+==========================  
 The script in this repo run_analysis.R is used to transform orginal data to tidy data after the original data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work directory. The work processes of the script are as following:
 
 1. Merges the training and the test sets to create one data set.
